@@ -4,6 +4,8 @@ Tiny vue.js application to highlight testing steps. Made to summarise applicatio
 
 Steps could be in tree hierarchy. Leaf nodes are set to correct/wrong by user, then non-lead nodes are set to correct/wrong whether all the child nodes are correct/wrong.
 
+## Screenshots
+
 ![Screenshot](http://files.alestrunda.cz/testing-steps-highlight/screen.jpg)
 
 ## Project setup
