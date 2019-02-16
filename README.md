@@ -2,7 +2,7 @@
 
 Tiny vue.js application to highlight testing steps. Made to summarise application's manual testing process.
 
-Steps could be in tree hierarchy. Leaf nodes are set to correct/wrong be user, then non-lead nodes are set to correct/wrong if all the child nodes are correct/wrong.
+Steps could be in tree hierarchy. Leaf nodes are set to correct/wrong by user, then non-lead nodes are set to correct/wrong whether all the child nodes are correct/wrong.
 
 ## Project setup
 ```
