@@ -36,7 +36,11 @@ const saving = {
   title: "saves changes permanently"
 };
 
+const noInternetConnection = {
+  title: "handles no internet connection"
+};
+
 export default {
   title: "General",
-  items: [menu, backbutton, dialogs, saving]
+  items: [menu, backbutton, dialogs, saving, noInternetConnection]
 };
