@@ -2,20 +2,96 @@ export default {
   title: "Lesson",
   items: [
     {
-      title: "correct properties"
+      title: "reset top score"
     },
     {
-      title: "add lesson",
+      title: "delete lesson"
+    },
+    {
+      title: "run lesson",
       items: [
         {
-          title: "quetions count based on selected listst",
+          title: "timer"
+        },
+        {
+          title: "progressbar"
+        },
+        {
+          title: "immediate eval",
+          items: [{ title: "correct" }, { title: "wrong" }]
+        },
+        {
+          title: "question eval",
           items: [
             {
-              title: "is reduced when list removed"
+              title: "type-in",
+              items: [
+                {
+                  title: "error if empty"
+                }
+              ]
+            },
+            {
+              title: "self-rating"
+            }
+          ]
+        },
+        {
+          title: "lesson type",
+          items: [
+            {
+              title: "picture"
+            },
+            {
+              title: "audio"
+            },
+            {
+              title: "custom field"
+            },
+            {
+              title: "phrase",
+              items: [
+                {
+                  title: "hint type",
+                  items: [
+                    {
+                      title: "audio"
+                    },
+                    {
+                      title: "custom field"
+                    },
+                    {
+                      title: "picture"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          title: "lesson eval",
+          items: [
+            {
+              title: "list of questions",
+              items: [
+                {
+                  title: "correct/wrong"
+                },
+                {
+                  title: "if wrong shows the wrong answer"
+                }
+              ]
+            },
+            {
+              title: "sets new best score if better than the previous one"
             }
           ]
         }
       ]
+    },
+    {
+      title: "after question answered new rating set for that word"
     }
   ]
-}
+};

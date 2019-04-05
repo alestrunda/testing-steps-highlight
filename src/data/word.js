@@ -2,6 +2,23 @@ export default {
   title: "Word",
   items: [
     {
+      title: "definition",
+      items: [
+        {
+          title: "word normal definition"
+        },
+        {
+          title: "word with only crossreference (uttermost)"
+        },
+        {
+          title: "word with only derivation (fatuity)"
+        },
+        {
+          title: "slides to definition section when clicked on category nav"
+        }
+      ]
+    },
+    {
       title: "favourite",
       items: [
         {
@@ -19,7 +36,7 @@ export default {
       title: "add rating"
     },
     {
-      title: "if more than one definition, others are hidden"
+      title: "if more than one definition, others are hidden (ostrich)"
     },
     {
       title: "set word's lists",
@@ -40,6 +57,9 @@ export default {
           items: [
             {
               title: "shows image preview if available"
+            },
+            {
+              title: "supports png/svg/jpg"
             }
           ]
         },
@@ -63,7 +83,13 @@ export default {
           title: "add",
           items: [
             {
+              title: "adds correctly"
+            },
+            {
               title: "error if not set"
+            },
+            {
+              title: "error if no part selected"
             }
           ]
         },

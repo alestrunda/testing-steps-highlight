@@ -2,95 +2,32 @@ export default {
   title: "Lessons",
   items: [
     {
-      title: "reset top score"
-    },
-    {
-      title: "delete lesson"
-    },
-    {
-      title: "run lekce",
+      title: "add lesson",
       items: [
         {
-          title: "timer"
-        },
-        {
-          title: "progressbar"
-        },
-        {
-          title: "immediate eval"
-        },
-        {
-          title: "question eval",
+          title: "quetions count based on selected listst",
           items: [
             {
-              title: "type-in",
-              items: [
-                {
-                  title: "error if empty"
-                }
-              ]
-            },
-            {
-              title: "self-rating"
+              title: "count reduced when list removed"
             }
           ]
         },
         {
-          title: "lesson type",
-          items: [
-            {
-              title: "picture"
-            },
-            {
-              title: "audio"
-            },
-            {
-              title: "custom field"
-            },
-            {
-              title: "phrase",
-              items: [
-                {
-                  title: "hint type",
-                  items: [
-                    {
-                      title: "audio"
-                    },
-                    {
-                      title: "custom field"
-                    },
-                    {
-                      title: "picture"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          title: "selects working"
         },
         {
-          title: "lesson eval",
-          items: [
-            {
-              title: "list of questions",
-              items: [
-                {
-                  title: "correct/wrong"
-                },
-                {
-                  title: "if wrong shows the wrong answer"
-                }
-              ]
-            },
-            {
-              title: "sets new best score if better than the previous one"
-            }
-          ]
+          title: "error when no name (regular list only)"
+        },
+        {
+          title: "notice when no lists available"
+        },
+        {
+          title: "switch to anonymous"
         }
       ]
     },
     {
-      title: "after question answered new rating set for that word"
+      title: "correct properties"
     }
   ]
 };
